@@ -1,0 +1,663 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.16f1 (d2c21f0ef2f1) revision 13812255'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'vi' Physical Memory: 15791 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\2022.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+D:/GitHub/Tower-Defense-3D
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+50660
+Successfully changed project path to: D:/GitHub/Tower-Defense-3D
+D:/GitHub/Tower-Defense-3D
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [19200] Host "[IP] 192.168.1.4 [Port] 0 [Flags] 2 [Guid] 4185210510 [EditorId] 4185210510 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-3GIQG9IG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [19200] Host "[IP] 192.168.1.4 [Port] 0 [Flags] 2 [Guid] 4185210510 [EditorId] 4185210510 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-3GIQG9IG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 7.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.16f1 (d2c21f0ef2f1)
+[Subsystems] Discovering subsystems at path D:/Unity/2022.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GitHub/Tower-Defense-3D/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   32.0.15.6590
+Initialize mono
+Mono path[0] = 'D:/Unity/2022.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2022.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/2022.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56220
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2022.3.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Unity/2022.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003590 seconds.
+- Loaded All Assemblies, in  0.361 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 350 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.684 seconds
+Domain Reload Profiling: 1045ms
+	BeginReloadAssembly (114ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (147ms)
+		LoadAssemblies (113ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (145ms)
+			TypeCache.Refresh (143ms)
+				TypeCache.ScanAssembly (129ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (684ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (623ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (456ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (112ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.688 seconds
+Refreshing native plugins compatible for Editor in 2.67 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.738 seconds
+Domain Reload Profiling: 1426ms
+	BeginReloadAssembly (147ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (451ms)
+		LoadAssemblies (318ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (216ms)
+			TypeCache.Refresh (172ms)
+				TypeCache.ScanAssembly (155ms)
+			ScanForSourceGeneratedMonoScriptInfo (21ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (739ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (552ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (388ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 3.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4939 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 65 unused Assets / (351.7 KB). Loaded Objects now: 5403.
+Memory consumption went from 208.9 MB to 208.5 MB.
+Total: 4.095300 ms (FindLiveObjects: 0.441000 ms CreateObjectMapping: 0.370700 ms MarkObjects: 3.053700 ms  DeleteObjects: 0.228100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/GameManager.cs: d0198e5f378367013f086c22462a1d77 -> 9933fbcc6190e2a9171c2ec8808a053e
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/EnemyAi.cs: 17e7d5f0e6eb1abb4b10f06cc156660b -> 1c7bd2786fe87b8f2999cb84aaf576aa
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:scripting/monoscript/fileName/Readme.cs: bf73f9349a55b9b66784b4cb9d6c9e84 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/AbstractTargetFollower.cs: ba9146c8480ad14583a8bdfddce3e600 -> bd8be3102d90dc7625e90c699b9ce143
+  custom:scripting/monoscript/fileName/PivotBasedCameraRig.cs: 336d94bd3c697a102964adbc8ff722cf -> 78e2e6573322fcc55af450266306de6e
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ReadmeEditor.cs: 100f0ac95af45b6f614cf5ca7f7e932f -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/Face.cs: eea1fcc71f1cfa6dc57fe1405a7d1d84 -> 0200cea91d58b5798211842e5901fb05
+  custom:scripting/monoscript/fileName/HumanoidGiantDemo.cs: 5fd2ef63bf717e5e2e88c590c081d94a -> 0db348d57c16daac90cd86910f45b8ec
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/FreeLookCam.cs: 9d5c69a4c153452f654896f6a9ecb5f2 -> ec7e447c8320099965c5f3bd81473d66
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2700.829156 seconds.
+  path: Assets/Assets/Enemy/Bomb Monster/mon_00/materials/smoke_02.mat
+  artifactKey: Guid(f7011f71b4d03734aa82330b4c0a64ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Enemy/Bomb Monster/mon_00/materials/smoke_02.mat using Guid(f7011f71b4d03734aa82330b4c0a64ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c8bd8dfbfd38d893d0229586170ca61') in 0.349316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 29.052780 seconds.
+  path: Assets/Assets/Enemy/Giant Monster/Characters/Humanoid Giant/Materials/Giant01/Giant01_Texture01/Giant01_Texture01 Recolor03.mat
+  artifactKey: Guid(fee76b9f27739264592fe452933ce504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Enemy/Giant Monster/Characters/Humanoid Giant/Materials/Giant01/Giant01_Texture01/Giant01_Texture01 Recolor03.mat using Guid(fee76b9f27739264592fe452933ce504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4da7bc7463c0fbce993bb925bf05b22') in 0.128215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 12.503071 seconds.
+  path: Assets/Assets/Enemy/Giant Monster/Characters/Humanoid Giant/Materials/Giant01/Giant01_Texture02/Giant01_Texture02 Recolor03.mat
+  artifactKey: Guid(93b3a3ff87c67ae4ead2e9f9ef244426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Enemy/Giant Monster/Characters/Humanoid Giant/Materials/Giant01/Giant01_Texture02/Giant01_Texture02 Recolor03.mat using Guid(93b3a3ff87c67ae4ead2e9f9ef244426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3befa9c0ba50f5a27ffa8338b8142557') in 0.055300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 6.959598 seconds.
+  path: Assets/Assets/Enemy/Giant Monster/Characters/Humanoid Giant/Materials/Giant01/Giant01_Texture02/URP/URP - Giant01_Texture02 Recolor03.mat
+  artifactKey: Guid(06915e08f60277d46b5db42694688495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Enemy/Giant Monster/Characters/Humanoid Giant/Materials/Giant01/Giant01_Texture02/URP/URP - Giant01_Texture02 Recolor03.mat using Guid(06915e08f60277d46b5db42694688495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac12dc1d0b5928bdfea08425a8046e6a') in 2.579572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 4.435958 seconds.
+  path: Assets/Assets/Enemy/Giant Monster/Characters/Humanoid Giant/Materials/Giant01/Giant01_Texture01/URP/URP - Giant01_Texture01 Recolor03.mat
+  artifactKey: Guid(85f5397140970ff4e891a15723356a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Enemy/Giant Monster/Characters/Humanoid Giant/Materials/Giant01/Giant01_Texture01/URP/URP - Giant01_Texture01 Recolor03.mat using Guid(85f5397140970ff4e891a15723356a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ca4a985b0040c3bd1b3564c017ab530') in 0.135774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 3.304776 seconds.
+  path: Assets/Assets/Enemy/Giant Monster/Characters/Humanoid Giant/Materials/Giant01_Flat/Giant01_Texture04_Flat.mat
+  artifactKey: Guid(b965be02b3e4f5d478d3885d40ff0979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Enemy/Giant Monster/Characters/Humanoid Giant/Materials/Giant01_Flat/Giant01_Texture04_Flat.mat using Guid(b965be02b3e4f5d478d3885d40ff0979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e3a2c22160acd8a43c263c17c4576a0') in 0.029309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 11.551690 seconds.
+  path: Assets/Assets/Enemy/Giant Monster/Characters/Humanoid Giant/Materials/Giant01_Flat/URP/URP - Giant01_Texture04_Flat.mat
+  artifactKey: Guid(fdc850b0e6e352849bd7542cffd76134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Enemy/Giant Monster/Characters/Humanoid Giant/Materials/Giant01_Flat/URP/URP - Giant01_Texture04_Flat.mat using Guid(fdc850b0e6e352849bd7542cffd76134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e25b71b265008213a3edb7ce7739de0f') in 0.028507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Assets/Enemy/Giant Monster/Characters/Humanoid Giant/Materials/Giant01_Flat/URP/URP - Giant01_Texture05_Flat.mat
+  artifactKey: Guid(c1d5772437a95f941b7ade6f08805fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Enemy/Giant Monster/Characters/Humanoid Giant/Materials/Giant01_Flat/URP/URP - Giant01_Texture05_Flat.mat using Guid(c1d5772437a95f941b7ade6f08805fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01e20cd52ed92ba255b4ce1d56e71557') in 0.020941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.674 seconds
+Refreshing native plugins compatible for Editor in 3.23 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.416 seconds
+Domain Reload Profiling: 2090ms
+	BeginReloadAssembly (212ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (367ms)
+		LoadAssemblies (426ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (56ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (27ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1417ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (570ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (389ms)
+			ProcessInitializeOnLoadMethodAttributes (74ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 2.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4783 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (319.1 KB). Loaded Objects now: 5485.
+Memory consumption went from 184.4 MB to 184.1 MB.
+Total: 4.566600 ms (FindLiveObjects: 0.449900 ms CreateObjectMapping: 0.147800 ms MarkObjects: 3.813500 ms  DeleteObjects: 0.154200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/GameManager.cs: d0198e5f378367013f086c22462a1d77 -> 9933fbcc6190e2a9171c2ec8808a053e
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/EnemyAi.cs: 17e7d5f0e6eb1abb4b10f06cc156660b -> 1c7bd2786fe87b8f2999cb84aaf576aa
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:scripting/monoscript/fileName/Readme.cs: bf73f9349a55b9b66784b4cb9d6c9e84 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/AbstractTargetFollower.cs: ba9146c8480ad14583a8bdfddce3e600 -> bd8be3102d90dc7625e90c699b9ce143
+  custom:scripting/monoscript/fileName/PivotBasedCameraRig.cs: 336d94bd3c697a102964adbc8ff722cf -> 78e2e6573322fcc55af450266306de6e
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ReadmeEditor.cs: 100f0ac95af45b6f614cf5ca7f7e932f -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/Face.cs: eea1fcc71f1cfa6dc57fe1405a7d1d84 -> 0200cea91d58b5798211842e5901fb05
+  custom:scripting/monoscript/fileName/HumanoidGiantDemo.cs: 5fd2ef63bf717e5e2e88c590c081d94a -> 0db348d57c16daac90cd86910f45b8ec
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/FreeLookCam.cs: 9d5c69a4c153452f654896f6a9ecb5f2 -> ec7e447c8320099965c5f3bd81473d66
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 68.525091 seconds.
+  path: Assets/Assets/Enemy/Slimes/Models/Slimes/Slime_02.fbx
+  artifactKey: Guid(056784e08510fd1478dd0ae22b90765b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Enemy/Slimes/Models/Slimes/Slime_02.fbx using Guid(056784e08510fd1478dd0ae22b90765b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08f6cdf322d7a63772bb09e52074ee19') in 0.484880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Assets/Enemy/Slimes/Models/Slimes/Slime_03.fbx
+  artifactKey: Guid(a2f1a2a97ec26bb47825031d7f3e94f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Enemy/Slimes/Models/Slimes/Slime_03.fbx using Guid(a2f1a2a97ec26bb47825031d7f3e94f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf699376c7a1dbe11f0cb77a79375fd') in 0.039025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 3.473447 seconds.
+  path: Assets/Assets/Enemy/Slimes/Models/Top/Leaf.fbx
+  artifactKey: Guid(fc38eb1d15aad094cafb3cb0e7542241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Enemy/Slimes/Models/Top/Leaf.fbx using Guid(fc38eb1d15aad094cafb3cb0e7542241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c2bb03d64fa884be5d438e515578007') in 0.040346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets/Enemy/Slimes/Models/Top/Sprout.fbx
+  artifactKey: Guid(be4fadb40c54934419fd624cd0021acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Enemy/Slimes/Models/Top/Sprout.fbx using Guid(be4fadb40c54934419fd624cd0021acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bccf92939070c44aa9386e1602ad04b7') in 0.035264 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets/Enemy/Slimes/Models/Top/MetalHelmet.fbx
+  artifactKey: Guid(de4b5f1ab048d034990ce739a01d7544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Enemy/Slimes/Models/Top/MetalHelmet.fbx using Guid(de4b5f1ab048d034990ce739a01d7544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5261d769bfa469c7784a25e74cf502f') in 0.030305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.596 seconds
+Refreshing native plugins compatible for Editor in 3.08 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.389 seconds
+Domain Reload Profiling: 1985ms
+	BeginReloadAssembly (191ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (326ms)
+		LoadAssemblies (374ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (46ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1390ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (591ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (407ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Refreshing native plugins compatible for Editor in 2.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4777 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 46 unused Assets / (321.8 KB). Loaded Objects now: 5524.
+Memory consumption went from 188.1 MB to 187.8 MB.
+Total: 3.785900 ms (FindLiveObjects: 0.493500 ms CreateObjectMapping: 0.138600 ms MarkObjects: 2.950800 ms  DeleteObjects: 0.200900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/GameManager.cs: d0198e5f378367013f086c22462a1d77 -> 9933fbcc6190e2a9171c2ec8808a053e
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/EnemyAi.cs: 17e7d5f0e6eb1abb4b10f06cc156660b -> 1c7bd2786fe87b8f2999cb84aaf576aa
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:scripting/monoscript/fileName/Readme.cs: bf73f9349a55b9b66784b4cb9d6c9e84 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/AbstractTargetFollower.cs: ba9146c8480ad14583a8bdfddce3e600 -> bd8be3102d90dc7625e90c699b9ce143
+  custom:scripting/monoscript/fileName/PivotBasedCameraRig.cs: 336d94bd3c697a102964adbc8ff722cf -> 78e2e6573322fcc55af450266306de6e
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ReadmeEditor.cs: 100f0ac95af45b6f614cf5ca7f7e932f -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/Face.cs: eea1fcc71f1cfa6dc57fe1405a7d1d84 -> 0200cea91d58b5798211842e5901fb05
+  custom:scripting/monoscript/fileName/HumanoidGiantDemo.cs: 5fd2ef63bf717e5e2e88c590c081d94a -> 0db348d57c16daac90cd86910f45b8ec
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/FreeLookCam.cs: 9d5c69a4c153452f654896f6a9ecb5f2 -> ec7e447c8320099965c5f3bd81473d66
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 36.615477 seconds.
+  path: Assets/Assets/Enemy/Slimes/Shader/Unity-chan Shader Ver 1.2.1/CharaOutline.cg
+  artifactKey: Guid(98e9eccf54dd0e34c9cb77865555483f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Enemy/Slimes/Shader/Unity-chan Shader Ver 1.2.1/CharaOutline.cg using Guid(98e9eccf54dd0e34c9cb77865555483f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d3a5e480ece7b4d11b3388b19eb4578') in 0.031711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 4.760826 seconds.
+  path: Assets/Assets/Enemy/Slimes/Textures/ProtectiveHat.psd
+  artifactKey: Guid(90837331d298b2742a3c9992a7bdbe91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Enemy/Slimes/Textures/ProtectiveHat.psd using Guid(90837331d298b2742a3c9992a7bdbe91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b678c8c89cb8f560c829dd9f91ca6dc6') in 0.068158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.463595 seconds.
+  path: Assets/Assets/Enemy/Slimes/Textures/Face/Face_01.psd
+  artifactKey: Guid(f261f5e5642a122459949a398033d017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Enemy/Slimes/Textures/Face/Face_01.psd using Guid(f261f5e5642a122459949a398033d017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aea6dead501d29e0e560a2929c534647') in 0.024605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Assets/Enemy/Slimes/Textures/Face/Face_03.psd
+  artifactKey: Guid(782203f93d5b797459a22445a1f1299d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Enemy/Slimes/Textures/Face/Face_03.psd using Guid(782203f93d5b797459a22445a1f1299d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd368cff93eb6c2f242e7b74af98ac8') in 0.016769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.235393 seconds.
+  path: Assets/Assets/Enemy/Slimes/Textures/Light/RimLight.png
+  artifactKey: Guid(2227c4b1ddd5ff242a7cf504719bdcbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Enemy/Slimes/Textures/Light/RimLight.png using Guid(2227c4b1ddd5ff242a7cf504719bdcbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4161f6f0192c8c1a2a00ae7ceb6af9c') in 0.017888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 6.768754 seconds.
+  path: Assets/Assets/Enemy/Slimes/Materials/Hat.mat
+  artifactKey: Guid(c91732b1f9025254389e917797db9b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Enemy/Slimes/Materials/Hat.mat using Guid(c91732b1f9025254389e917797db9b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e68fc7eb21acbc4ed5ef9c308c147ca7') in 0.277246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 23.479233 seconds.
+  path: Assets/Assets/Enemy/Slimes/Materials/Face/Face 0.mat
+  artifactKey: Guid(c12dba4db4b10a34ea85b03c5b9263e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Enemy/Slimes/Materials/Face/Face 0.mat using Guid(c12dba4db4b10a34ea85b03c5b9263e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '677a60e27edcf352f36c6bf2d338bd64') in 0.025710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets/Enemy/Slimes/Materials/Face/Face 2.mat
+  artifactKey: Guid(4d0ca150427ac2f41b5cd8b25e023e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Enemy/Slimes/Materials/Face/Face 2.mat using Guid(4d0ca150427ac2f41b5cd8b25e023e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9464c6fcca37cdd6f553607480876233') in 0.019023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 3.003354 seconds.
+  path: Assets/Assets/Enemy/Slimes/Materials/Slime 1/Slime1_Viking.mat
+  artifactKey: Guid(a027387037c52884fbdb0ba64da507c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Enemy/Slimes/Materials/Slime 1/Slime1_Viking.mat using Guid(a027387037c52884fbdb0ba64da507c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5ba1124aef21af3bc6c1bc433ae9e2d') in 0.026112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 201.341039 seconds.
+  path: Assets/Assets/Enemy/Bomb Monster/mon_00/fbx/mon00_idle.FBX
+  artifactKey: Guid(d94f06fde6d251f458f73132def759c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Enemy/Bomb Monster/mon_00/fbx/mon00_idle.FBX using Guid(d94f06fde6d251f458f73132def759c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4045a19fb833aae7d5001d287c2b8d8e') in 0.103887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 86
+========================================================================
+Received Import Request.
+  Time since last request: 19.354710 seconds.
+  path: Assets/Assets/Enemy/Spiders/Materials/Ground.mat
+  artifactKey: Guid(89c49a5a8ed9c1e468aff71876bf80c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Enemy/Spiders/Materials/Ground.mat using Guid(89c49a5a8ed9c1e468aff71876bf80c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cff4eb2ff82adc465c9f758c96b65036') in 0.026413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets/Enemy/Spiders/Materials/SandSpider.mat
+  artifactKey: Guid(5ac51c7de07714d4ab6e74dc98bf9525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Enemy/Spiders/Materials/SandSpider.mat using Guid(5ac51c7de07714d4ab6e74dc98bf9525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83c8b239b12f8232e374445e9b336f68') in 0.018497 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 43.037159 seconds.
+  path: Assets/Assets/Enemy/Giant Monster/Prefabs/Giant01_Flat - Golem_Flat.prefab
+  artifactKey: Guid(d9af52bf624fb004abc7f4d28bdf39e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Enemy/Giant Monster/Prefabs/Giant01_Flat - Golem_Flat.prefab using Guid(d9af52bf624fb004abc7f4d28bdf39e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '374b3bbafad540cdd112b1bb4001a560') in 0.032274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 131
+========================================================================
+Received Import Request.
+  Time since last request: 31.019927 seconds.
+  path: Assets/Assets/Enemy/Giant Monster/Prefabs/URP/URP - Giant01_Flat - Golem_Flat.prefab
+  artifactKey: Guid(3d2e6e9a35aebe848bcaf85c3ec6c0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Enemy/Giant Monster/Prefabs/URP/URP - Giant01_Flat - Golem_Flat.prefab using Guid(3d2e6e9a35aebe848bcaf85c3ec6c0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67798137934a629c4d99601433f8ee2b') in 0.027959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 131
+========================================================================
+Received Import Request.
+  Time since last request: 19.833630 seconds.
+  path: Assets/Assets/Enemy/Slimes/Prefabs/Slime_01_King.prefab
+  artifactKey: Guid(28d0a30d6aed6fc4c8ca473413f70c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Enemy/Slimes/Prefabs/Slime_01_King.prefab using Guid(28d0a30d6aed6fc4c8ca473413f70c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa74a835936046f015c8bb9653878281') in 0.040414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 0.001844 seconds.
+  path: Assets/Assets/Enemy/Slimes/Prefabs/Slime_03 Sprout.prefab
+  artifactKey: Guid(8760cc9eb30a2b340b14499b6e150dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Enemy/Slimes/Prefabs/Slime_03 Sprout.prefab using Guid(8760cc9eb30a2b340b14499b6e150dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f30977db84722e573d76a66c801d62db') in 0.040853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets/Enemy/Slimes/Prefabs/Slime_01_Viking.prefab
+  artifactKey: Guid(11eed2dfd1329ab4db9e7f27b8e628b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Enemy/Slimes/Prefabs/Slime_01_Viking.prefab using Guid(11eed2dfd1329ab4db9e7f27b8e628b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08d61dedeba59ea0ca9e8228e7fddd6e') in 0.028828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Assets/Enemy/Slimes/Prefabs/Slime_03 Leaf.prefab
+  artifactKey: Guid(66ae442726d1cf4428dacb34edd61ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Enemy/Slimes/Prefabs/Slime_03 Leaf.prefab using Guid(66ae442726d1cf4428dacb34edd61ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd25889d63f217ce87393d0f2d5979839') in 0.027692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 21.864887 seconds.
+  path: Assets/Assets/Enemy/Giant Monster/Textures/Giant01_Flat/Giant01-Texture01_Flat.png
+  artifactKey: Guid(7973fbf19c96f97499a5724755a76cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Enemy/Giant Monster/Textures/Giant01_Flat/Giant01-Texture01_Flat.png using Guid(7973fbf19c96f97499a5724755a76cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1af2f3750595b57348def2724ca912cd') in 0.020203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets/Enemy/Giant Monster/Textures/Giant01/Texture02/Giant01_Texture02-Metallic.png
+  artifactKey: Guid(e120d0eace4d3a64c9ddbe05d85c2944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Enemy/Giant Monster/Textures/Giant01/Texture02/Giant01_Texture02-Metallic.png using Guid(e120d0eace4d3a64c9ddbe05d85c2944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '216472ca2435fea9479faba300964772') in 0.025038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets/Enemy/Giant Monster/Textures/Giant01/Texture02/Giant01_Texture02-AmbientOcclusion.png
+  artifactKey: Guid(99c7292a74ad80c459e3fac7d8c00fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Enemy/Giant Monster/Textures/Giant01/Texture02/Giant01_Texture02-AmbientOcclusion.png using Guid(99c7292a74ad80c459e3fac7d8c00fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1057f09b0ee27b47a3a004e9c6a0969') in 0.030719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Assets/Enemy/Spiders/Textures/SandSpider Roughness.png
+  artifactKey: Guid(ea9909d67bfa24c439f74b6fa5ff7990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Enemy/Spiders/Textures/SandSpider Roughness.png using Guid(ea9909d67bfa24c439f74b6fa5ff7990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ef6aa4a85ec97647de89efb15f0fc33') in 0.029678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Assets/Enemy/Giant Monster/Textures/Giant01/Texture01/Recolor/Giant01_Texture01-Recolor02.png
+  artifactKey: Guid(a19a6cf6e664b164d9102c4af6ec947c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Enemy/Giant Monster/Textures/Giant01/Texture01/Recolor/Giant01_Texture01-Recolor02.png using Guid(a19a6cf6e664b164d9102c4af6ec947c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3975879dda301bf2e803a4baeb2d7ea1') in 0.030985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Assets/Enemy/Giant Monster/Textures/Giant01/Texture02/Recolor/Giant01_Texture02-Recolor02.png
+  artifactKey: Guid(a1151b6da60bf844c831f132ca19d951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Enemy/Giant Monster/Textures/Giant01/Texture02/Recolor/Giant01_Texture02-Recolor02.png using Guid(a1151b6da60bf844c831f132ca19d951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc7f46281f60b828ea79b9510a08cb4') in 0.024829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Assets/Enemy/Spiders/Textures/SandSpiser Color.png
+  artifactKey: Guid(635e5ec765a1b364585d5df3dcf01d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Enemy/Spiders/Textures/SandSpiser Color.png using Guid(635e5ec765a1b364585d5df3dcf01d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '802c2cceb8fb8493c04b849417cfdecb') in 0.029168 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Assets/Enemy/Giant Monster/Textures/Giant01_Flat/Giant01-Texture03_Flat.png
+  artifactKey: Guid(7ef3356b31a285e4584999dd469ed81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Enemy/Giant Monster/Textures/Giant01_Flat/Giant01-Texture03_Flat.png using Guid(7ef3356b31a285e4584999dd469ed81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c6a882a97014f0e35a460d6715d54ad') in 0.030057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
